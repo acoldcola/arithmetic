@@ -34,7 +34,7 @@ public class Recall {
         if (m == Q) {
            for (int i = 0; i < Q; i++) {
                for (int j = 0; j < Q; j++) {
-                   System.out.println(dp[i][j] + " ");
+                   System.out.print(dp[i][j] + " ");
                }
                System.out.println("\n");
            }
