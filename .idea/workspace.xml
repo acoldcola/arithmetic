@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8b3bd75-119e-411e-ba9f-b199c9d2ccaa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/zk/HeapSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/com/zk/Recall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic/com/zk/Recall.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zk/Recall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zk/Recall.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +17,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zk/ImproveInsertSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="192">
               <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
             </state>
           </provider>
@@ -29,6 +28,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
               <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zk/HeapSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -45,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zk/InsertSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="23" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="501">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -60,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zk/Recall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+            <state relative-caret-position="219">
+              <caret line="36" selection-start-line="36" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -73,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/zk/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <caret line="6" selection-start-line="6" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -83,15 +91,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
               <caret line="13" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -126,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/com/zk/ImproveInsertSort.java" />
         <option value="$PROJECT_DIR$/src/com/zk/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/com/zk/Recall.java" />
+        <option value="$PROJECT_DIR$/src/com/zk/HeapSort.java" />
       </list>
     </option>
   </component>
@@ -148,14 +148,49 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="arithmetic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arithmetic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arithmetic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arithmetic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arithmetic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zk" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564034869355" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564038961157" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -170,7 +205,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Recall">
+  <component name="RunManager" selected="Application.HeapSort">
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zk.HeapSort" />
+      <module name="arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ImproveInsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zk.ImproveInsertSort" />
       <module name="arithmetic" />
@@ -210,19 +258,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zk.SelectSort" />
-      <module name="arithmetic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zk.test" />
       <module name="arithmetic" />
@@ -237,19 +272,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SelectSort" />
       <item itemvalue="Application.InsertSort" />
       <item itemvalue="Application.ImproveInsertSort" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.Recall" />
+      <item itemvalue="Application.HeapSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.Recall" />
         <item itemvalue="Application.ImproveInsertSort" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.InsertSort" />
-        <item itemvalue="Application.SelectSort" />
       </list>
     </recent_temporary>
   </component>
@@ -267,12 +302,27 @@
       <workItem from="1546146135528" duration="4431000" />
       <workItem from="1547042974154" duration="38000" />
       <workItem from="1562376282982" duration="147000" />
-      <workItem from="1564024527650" duration="4531000" />
+      <workItem from="1564024527650" duration="7241000" />
     </task>
+    <task id="LOCAL-00001" summary="n皇后问题，回溯">
+      <created>1564034855511</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564034855511</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改打印">
+      <created>1564034922418</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564034922418</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14333000" />
+    <option name="totallyTimeSpent" value="17043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -291,7 +341,7 @@
       <window_info anchor="bottom" id="Debug with VisualVM" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36950147" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23607038" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2955665" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -316,6 +366,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="n皇后问题，回溯" />
+    <MESSAGE value="修改打印" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改打印" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
@@ -376,17 +431,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zk/BubbleSort.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zk/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zk/ImproveInsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="168">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -399,15 +447,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zk/InsertSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="23" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="501">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zk/ImproveInsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zk/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <caret line="6" selection-start-line="6" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zk/Recall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="36" selection-start-line="36" selection-end-line="37" />
         </state>
       </provider>
     </entry>
@@ -418,17 +480,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zk/test.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zk/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="144">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zk/Recall.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zk/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        <state relative-caret-position="210">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
         </state>
       </provider>
     </entry>
