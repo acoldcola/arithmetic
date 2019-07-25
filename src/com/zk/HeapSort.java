@@ -9,7 +9,7 @@ import java.util.Arrays;
  */
 public class HeapSort {
     public static void main(String[] args) {
-        int[] array = new int[]{2, 1, 4, 3, 6, 5, 8, 7};
+        int[] array = new int[]{5, 1, 7, 3, 2, 3, 8, 4};
         sort(array);
         System.out.println(Arrays.toString(array));
     }
@@ -20,7 +20,7 @@ public class HeapSort {
      * @description 本方法只有一个参数，那就是待排序的array
      */
     public static void sort(int[] array) {
-        // 建立大定堆
+        // 建立大顶堆
         for (int i = array.length/2 - 1; i >= 0; i--) {
             adjustHeap(array,i,array.length);
         }

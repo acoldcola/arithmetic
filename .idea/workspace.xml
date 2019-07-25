@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8b3bd75-119e-411e-ba9f-b199c9d2ccaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zk/HeapSort.java" afterDir="false" />
+    <list default="true" id="f8b3bd75-119e-411e-ba9f-b199c9d2ccaa" name="Default Changelist" comment="堆排序">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/com/zk/Recall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic/com/zk/Recall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zk/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zk/HeapSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/zk/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+            <state relative-caret-position="143">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -190,7 +191,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564038961157" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564039238197" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -302,7 +303,7 @@
       <workItem from="1546146135528" duration="4431000" />
       <workItem from="1547042974154" duration="38000" />
       <workItem from="1562376282982" duration="147000" />
-      <workItem from="1564024527650" duration="7241000" />
+      <workItem from="1564024527650" duration="7486000" />
     </task>
     <task id="LOCAL-00001" summary="n皇后问题，回溯">
       <created>1564034855511</created>
@@ -318,11 +319,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564034922418</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="堆排序">
+      <created>1564038986949</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564038986949</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17043000" />
+    <option name="totallyTimeSpent" value="17288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -341,7 +349,7 @@
       <window_info anchor="bottom" id="Debug with VisualVM" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23607038" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4941349" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2955665" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -370,7 +378,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="n皇后问题，回溯" />
     <MESSAGE value="修改打印" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改打印" />
+    <MESSAGE value="堆排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="堆排序" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
@@ -489,8 +498,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zk/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        <state relative-caret-position="143">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
         </state>
       </provider>
     </entry>
