@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8b3bd75-119e-411e-ba9f-b199c9d2ccaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zk/DfsTemplate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -71,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/zk/DfsTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="558">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -191,7 +190,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564040863963" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564041159171" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
@@ -304,7 +303,7 @@
       <workItem from="1546146135528" duration="4431000" />
       <workItem from="1547042974154" duration="38000" />
       <workItem from="1562376282982" duration="147000" />
-      <workItem from="1564024527650" duration="9110000" />
+      <workItem from="1564024527650" duration="9362000" />
     </task>
     <task id="LOCAL-00001" summary="n皇后问题，回溯">
       <created>1564034855511</created>
@@ -334,11 +333,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564039281505</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="DFS模板">
+      <created>1564040960875</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564040960875</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18912000" />
+    <option name="totallyTimeSpent" value="19164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -388,7 +394,8 @@
     <MESSAGE value="修改打印" />
     <MESSAGE value="堆排序" />
     <MESSAGE value="修改堆排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改堆排序" />
+    <MESSAGE value="DFS模板" />
+    <option name="LAST_COMMIT_MESSAGE" value="DFS模板" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
@@ -514,8 +521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zk/DfsTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="558">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
