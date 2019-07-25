@@ -9,7 +9,7 @@ import java.util.Date;
  */
 public class Recall {
 
-    public static int Q = 15; //代表八皇后
+    public static int Q = 8; //代表八皇后
 
     private static int num = 0; //代表次数
 
@@ -30,66 +30,67 @@ public class Recall {
     }
 
     private static void que(int m, int[][] dp) {
-        // TODO Auto-generated method stub
-
-        if (m == Q) {//递归结束条件
-
-            for (int i = 0; i < Q; i++) {
-                for (int j = 0; j < Q; j++) {
-                    System.out.print(dp[i][j] + " ");
-                }
-                System.out.println("\n");
-            }
+        // 递归结束
+        if (m == Q) {
+           for (int i = 0; i < Q; i++) {
+               for (int j = 0; j < Q; j++) {
+                   System.out.println(dp[i][j] + " ");
+               }
+               System.out.println("\n");
+           }
             System.out.println("**********************");
             num++;
-        }
-        //递归计算
+       }
+        // 开始递归
         for (int i = 0; i < Q; i++) {
-            if (isCorrt(i, m, dp)) {
+            if (isCorrt(i,m,dp)) {
                 dp[i][m] = 1;
-                que(m + 1, dp);
+                que(m+1,dp);
                 dp[i][m] = 0;
             }
         }
     }
 
-    //判断这个位置能不能放皇后
+    //判断这个位置是否可以
     private static boolean isCorrt(int i, int j, int[][] dp) {
-        // TODO Auto-generated method stub
-        int s, t;  //s代表行,t代表列
-        for (s = i, t = 0; t < Q; t++) {
-            if (dp[s][t] == 1 && t != j) {
-                return false;//判断行
-            }
-
-        }
-        for (t = j, s = 0; s < Q; s++) {
-            if (dp[s][t] == 1 && s != i) {
-                return false;//判断列
+        // x代表行,y代表列
+        int x,y;
+        // 判断列
+        for (y = 0; y < Q; y++) {
+            if (dp[i][y] == 1 && y != j) {
+                return false;
             }
         }
-        for (s = i - 1, t = j - 1; s >= 0 && t >= 0; s--, t--) {
-            if (dp[s][t] == 1) {
-                return false;//判断左上方
-            }
-
-        }
-        for (s = i + 1, t = j + 1; s < Q && t < Q; s++, t++) {
-            if (dp[s][t] == 1){
-                return false;//判断右下方
+        // 判断行
+        for (x = 0; x < Q; x++) {
+            if (dp[x][j] == 1 && x != i) {
+                return false;
             }
         }
-        for (s = i - 1, t = j + 1; s >= 0 && t < Q; s--, t++) {
-            if (dp[s][t] == 1) {
-                return false;//判断右上方
+        // 判断左上
+        for (x = i - 1,  y = j - 1; x >= 0 && y >= 0; x--, y--) {
+            if (dp[x][y] == 1) {
+                return false;
             }
         }
-        for (s = i + 1, t = j - 1; s < Q && t >= 0; s++, t--){
-            if (dp[s][t] == 1) {
-                return false;//判断左下方
+        // 判断右上
+        for (x = i - 1,  y = j + 1; x >= 0 && y < Q; x--, y++) {
+            if (dp[x][y] == 1) {
+                return false;
+            }
+        }
+        // 判断左下
+        for (x = i + 1,  y = j - 1; x < Q && y >= 0; x++, y--) {
+            if (dp[x][y] == 1) {
+                return false;
+            }
+        }
+        // 判断右下
+        for (x = i + 1,  y = j + 1; x < 0 && y < 0; x++, y++) {
+            if (dp[x][y] == 1) {
+                return false;
             }
         }
         return true;
     }
-
 }
