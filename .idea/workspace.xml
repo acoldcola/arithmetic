@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8b3bd75-119e-411e-ba9f-b199c9d2ccaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zk/HumdrumStack.java" afterDir="false" />
+    <list default="true" id="f8b3bd75-119e-411e-ba9f-b199c9d2ccaa" name="Default Changelist" comment="kaolv">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zk/HumdrumStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zk/HumdrumStack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,6 +12,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -62,8 +77,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/zk/HumdrumStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            <state relative-caret-position="127">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#526#535#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,10 +157,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="120" />
-    <option name="y" value="40" />
+    <option name="x" value="50" />
+    <option name="y" value="5" />
     <option name="width" value="1750" />
-    <option name="height" value="925" />
+    <option name="height" value="950" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -178,8 +197,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564127225193" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../study" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564128267907" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LeetCode" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RunDashboard">
@@ -292,7 +311,7 @@
       <workItem from="1547042974154" duration="38000" />
       <workItem from="1562376282982" duration="147000" />
       <workItem from="1564024527650" duration="10759000" />
-      <workItem from="1564106249448" duration="2604000" />
+      <workItem from="1564106249448" duration="3387000" />
     </task>
     <task id="LOCAL-00001" summary="n皇后问题，回溯">
       <created>1564034855511</created>
@@ -336,11 +355,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564041264620</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="单调栈解决直方图最大矩形覆盖">
+      <created>1564127285440</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1564127285440</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23165000" />
+    <option name="totallyTimeSpent" value="23948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -355,7 +381,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2346041" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.049853373" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28005865" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -432,16 +458,35 @@
     <MESSAGE value="修改堆排序" />
     <MESSAGE value="DFS模板" />
     <MESSAGE value="删除commany包" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除commany包" />
+    <MESSAGE value="单调栈解决直方图最大矩形覆盖" />
+    <option name="LAST_COMMIT_MESSAGE" value="单调栈解决直方图最大矩形覆盖" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/zk/HumdrumStack.java</url>
-          <line>32</line>
+          <line>10</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/zk/HumdrumStack.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/zk/HumdrumStack.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/zk/HumdrumStack.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -585,8 +630,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zk/HumdrumStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        <state relative-caret-position="127">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#526#535#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
